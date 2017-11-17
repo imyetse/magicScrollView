@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="StickyScrollView">
+        <attr name="showHeader" format="boolean"/>
+        <attr name="animateEnable" format="boolean"/>
+        <attr name="animateDuration" format="integer"/>
+        <attr name="scrollFraction" format="float"/>
+    </declare-styleable>
+</resources>
