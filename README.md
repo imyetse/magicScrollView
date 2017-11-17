@@ -37,8 +37,9 @@
 
     </tse.ye.demo.lib.StickyScrollView>
 ```
-当做普通的ScrollView使用，要保证<LinearLayout>下面至少一个子View
-  第一个子View会默认为Header
+
+当做普通的ScrollView使用，要保证##LinearLayout下面至少一个子View
+第一个子View会默认为Header
   
  ## 属性方法
 app:showHeader="false" //是否默认显示header view
