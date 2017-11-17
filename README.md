@@ -1,0 +1,2 @@
+# magicScrollView
+粘性下拉显示header，上拉显示内容，类似魅族便签下拉显示标题的效果，合适需要在scrollview添加header的场景使用
