@@ -42,14 +42,26 @@
 第一个子View会默认为Header
   
  ## 属性方法
-app:showHeader="false" //是否默认显示header view
+#### app:showHeader="false" *是否默认显示header view*
 
-app:animateEnable="false" //是否使用header view显示隐藏时的动画
+#### app:animateEnable="false" *是否使用header view显示隐藏时的动画*
 
-app:animateDuration="250" //HeaderView显示隐藏时的动画时长
+#### app:animateDuration="250" *HeaderView显示隐藏时的动画时长*
 
-app:scrollFraction="0.4" //我称之为粘性滑动的比值 比如手指滑动10个像素，实际只是滑动4个像素
+#### app:scrollFraction="0.4" *我称之为粘性滑动的比值 比如手指滑动10个像素，实际只是滑动4个像素*
 
+## 方法
+#### setAnimateEnable(boolean) *代码控制是否显示header view显示隐藏动画*
+
+#### setAnimationDuration(long ) *代码控制header view动画时长*
+
+#### setOnPageChangeListener(OnPageChangeListener) *header view切换监听*
+
+#### setFraction(float) *代码控制粘性滑动比值 0~1 默认0.4*
+
+#### addIgnoredView(View)  *添加出现滑动冲突的子View 避免出现parent View 和child View的滑动冲突*
+
+#### removeIgnoredView(View) *删除设置了滑动冲突的子View的引用*
 
 欢迎fork改进
 
